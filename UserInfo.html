@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+	<script type="text/javascript" src="myScript.js"></script>
+</head>
+<body>
+	<div class="wrapper">
+		<div>
+			<h1>Add User</h1>
+		</div>
+		<div class="container">
+			<label for="fname" class="details">First Name:</label><br>
+			<input type="text" id="fname" class="form-control" placeholder="Enter your First Name"><br>
+			<label for="lname" class="details">Last Name:</label><br>
+			<input type="text" id="lname" class="form-control" placeholder="Enter your Last Name"><br>
+			<label for="profile" class="details">Profile:</label><br>
+			<input type="text" id="profile" class="form-control"><br>
+			<label for="uname" class="details">User Name:</label><br>
+			<input type="text" id="uname" class="form-control" placeholder="Enter your User Name"><br>
+			<label for="mail" class="details">Email id:</label><br>
+			<input type="email" id="mail" class="form-control" placeholder="Enter your Email"><br>
+			<label for="password" class="details">Password:</label><br>
+			<input type="password" id="password" class="form-control" placeholder="Enter your Password"><br>
+		</div>
+		
+		<div>
+			<button type="button" id="cancel" >Cancel</button>
+			<button type="button" id="add" onclick="addUser()">Add</button>
+		</div>
+		<div id="user"><ul id='user1'></ul></div>
+	</div>
+</body>
+</html>
